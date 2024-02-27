@@ -4,13 +4,19 @@ import './Landing.css'
 import vector1 from '../assets/vector1.png'
 import vector2 from '../assets/vector2.png'
 import vector3 from '../assets/vector3.png'
+import { useNavigate } from 'react-router-dom'
 
 function Landing() {
+    const navigate = useNavigate();
+
+    const handleStarted = () => {
+        navigate('/home');
+    }
   return (
     <div className='landing'>
         <div className='header'>
             <img src={logo} alt="logo" />
-            <div className='button'>
+            <div className='button' onClick={handleStarted}>
                 <p>GET STARTED</p>
             </div>
         </div>

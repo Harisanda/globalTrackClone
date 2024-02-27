@@ -1,0 +1,55 @@
+.home{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.home-content{
+    background-image: url("../assets/background.jpeg");
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    padding-top: 4em;
+
+}
+
+.time{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.counter{
+    margin-left: 10em;
+    font-size: 1.5em;
+    color: #ffffff;
+}
+
+.upload-image{
+    margin-right: 10em;
+    cursor: pointer;
+}
+
+i {
+    color: #ffffff;
+    margin-left: 38%;
+    margin-right: 40%;
+}
+
+.upload-image label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color: #ffffff;
+    background: #60635A;
+    width: 110px;
+    height: 25px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+input{
+    display: none;
+}
+
